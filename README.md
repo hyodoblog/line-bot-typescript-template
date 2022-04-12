@@ -1,5 +1,8 @@
 # line-bot-express-template
-LINE Bot + Express + Firebase Functionsのテンプレート
+
+LINE Bot + Express + Firebase Functionsのテンプレート  
+オウム返しボットです。
+
 
 ## 初期設定
 
