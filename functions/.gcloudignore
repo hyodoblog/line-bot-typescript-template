@@ -1,0 +1,9 @@
+node_modules
+src
+
+.env*
+*.sh
+.eslint*
+
+README.md
+./*firebase*

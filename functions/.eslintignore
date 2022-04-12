@@ -1,0 +1,9 @@
+node_modules
+
+*.js
+*.d.ts
+
+.eslintrc.js
+
+dist
+lib

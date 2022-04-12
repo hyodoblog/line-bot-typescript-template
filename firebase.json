@@ -1,0 +1,28 @@
+{
+  "functions": {
+    "predeploy": [
+      "yarn --cwd \"$RESOURCE_DIR\" lint",
+      "yarn --cwd \"$RESOURCE_DIR\" build"
+    ],
+    "source": "packages/functions",
+    "ignore": [
+      "**/.env.*",
+      "**/.prettier*",
+      "**/.gitignore",
+      "**/.runtimeconfig*",
+      "**/*.log",
+      "**/README.md",
+      "**/tsconfig.json",
+      "**/src/**",
+      "**/node_modules/**"
+    ]
+  },
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "ui": {
+      "enabled": true
+    }
+  }
+}
