@@ -5,3 +5,11 @@ LINE Bot + Express + Firebase Functionsのテンプレート
 
 1. .firebasercファイルを設定
 2. functions/.env.expampleをもとに.envファイルを作成&設定
+
+## デプロイ
+
+```bash
+firebase deploy
+or
+firebase deploy --only functions:lineBot
+```
