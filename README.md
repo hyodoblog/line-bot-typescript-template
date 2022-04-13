@@ -10,7 +10,17 @@ LINE Bot + TypeScript + Firebase Functions のテンプレート
 
 ## デプロイ
 
+実行環境
+
 ```bash
+node 14
+```
+
+コマンド
+
+```bash
+cd functions
+
 firebase deploy
 or
 firebase deploy --only functions:lineBot
