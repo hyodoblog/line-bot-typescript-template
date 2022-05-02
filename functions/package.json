@@ -18,6 +18,7 @@
   "dependencies": {
     "@line/bot-sdk": "^7.5.0",
     "axios": "^0.26.1",
+    "dayjs": "^1.11.1",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "firebase-admin": "^10.0.2",
