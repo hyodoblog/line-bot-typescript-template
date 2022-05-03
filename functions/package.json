@@ -12,19 +12,18 @@
     "lint": "yarn eslint && yarn prettier"
   },
   "engines": {
-    "node": "14"
+    "node": "16"
   },
   "main": "dist/index.js",
   "dependencies": {
     "@line/bot-sdk": "^7.5.0",
     "axios": "^0.26.1",
+    "dayjs": "^1.11.1",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "firebase-admin": "^10.0.2",
     "firebase-functions": "^3.20.0",
-    "module-alias": "^2.2.2",
-    "moment": "^2.29.2",
-    "moment-timezone": "^0.5.34"
+    "module-alias": "^2.2.2"
   },
   "devDependencies": {
     "@types/module-alias": "^2.0.1",

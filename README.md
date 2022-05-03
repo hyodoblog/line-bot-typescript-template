@@ -1,6 +1,6 @@
 # line-bot-typescript-template
 
-LINE Bot + TypeScript + Firebase Functions のテンプレート  
+LINE Bot + TypeScript + Firebase Functions のテンプレート
 オウム返しボットです。
 
 ## 初期設定
@@ -13,7 +13,7 @@ LINE Bot + TypeScript + Firebase Functions のテンプレート
 実行環境
 
 ```bash
-node 14
+node 16
 ```
 
 コマンド
