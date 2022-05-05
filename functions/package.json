@@ -1,5 +1,5 @@
 {
-  "name": "@benri-papillon/functions",
+  "name": "functions",
   "license": "UNLICENSED",
   "scripts": {
     "build": "rm -rf dist && tsc",
