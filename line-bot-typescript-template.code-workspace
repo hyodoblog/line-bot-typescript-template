@@ -5,6 +5,9 @@
     },
     {
       "path": "./functions"
+    },
+    {
+      "path": "./functions/src/triggers/https/line-bot"
     }
   ],
   "settings": {
