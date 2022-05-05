@@ -1,6 +1,6 @@
 {
   "name": "functions",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && tsc",
     "dev": "yarn build && firebase emulators:start --only functions",
