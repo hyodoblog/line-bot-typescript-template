@@ -1,10 +1,7 @@
 {
   "functions": {
-    "predeploy": [
-      "yarn --cwd \"$RESOURCE_DIR\" lint",
-      "yarn --cwd \"$RESOURCE_DIR\" build"
-    ],
-    "source": "functions",
+    "predeploy": ["yarn --cwd \"$RESOURCE_DIR\" build"],
+    "source": ".",
     "ignore": [
       "**/.env.*",
       "**/.prettier*",
