@@ -19,8 +19,6 @@ node 16
 コマンド
 
 ```bash
-cd functions
-
 firebase deploy
 or
 firebase deploy --only functions:lineBot
