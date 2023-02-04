@@ -11,7 +11,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json']
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'simple-import-sort', 'sort-destructure-keys', 'import-access'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -19,9 +19,9 @@ module.exports = {
   ],
   rules: {
     // import
-    'import/named': 'off',
-    'import/no-unresolved': 'off',
-    'sort-imports': 0,
+    'import-access/jsdoc': 'error',
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
 
     // prettier
     'no-console': [
@@ -35,6 +35,7 @@ module.exports = {
 
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/restrict-template-expressions': 0,
     '@typescript-eslint/no-extra-semi': 0,
     '@typescript-eslint/no-floating-promises': 0,
     '@typescript-eslint/no-non-null-assertion': 0,
