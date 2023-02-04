@@ -1,8 +1,10 @@
 import { middleware } from '@line/bot-sdk'
-import { logger, region, RuntimeOptions } from 'firebase-functions'
 import express from 'express'
+import { logger, region, RuntimeOptions } from 'firebase-functions'
+
 import { lineMiddlewareConfig } from '~/utils/line'
 import { errorLogger } from '~/utils/util'
+
 import { handlers } from './handlers'
 
 const app = express()

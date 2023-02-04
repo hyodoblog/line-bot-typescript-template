@@ -1,4 +1,5 @@
 import { FollowEvent } from '@line/bot-sdk'
+
 import { lineClient } from '~/utils/line'
 import { msgFollow } from '~lineBot/notice-messages/follow'
 

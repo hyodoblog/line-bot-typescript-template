@@ -1,4 +1,5 @@
 import { Client, ClientConfig, Message, MiddlewareConfig } from '@line/bot-sdk'
+
 import { LINE_MESSAGING_CHANNEL_ACCESS_TOKEN, LINE_MESSAGING_CHANNEL_SECRET } from './secrets'
 
 export const lineMiddlewareConfig: MiddlewareConfig = {
