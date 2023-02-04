@@ -1,7 +1,7 @@
 import { MessageEvent } from '@line/bot-sdk'
 import { lineClient } from '~/utils/line'
 import { errorLogger } from '~/utils/util'
-import { msgOther } from '~line/notice-messages/other'
+import { msgOther } from '~lineBot/notice-messages/other'
 import { messageTextHandler } from './text'
 
 export const messagesHandler = async (event: MessageEvent): Promise<void> => {

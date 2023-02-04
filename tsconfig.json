@@ -18,7 +18,7 @@
     "outDir": "./dist",
     "paths": {
       "~/*": ["./src/*"],
-      "~line/*": ["./src/triggers/https/line-bot/*"]
+      "~lineBot/*": ["./src/funcs/line-bot/*"]
     }
   },
   "exclude": ["dist", "node_modules"],

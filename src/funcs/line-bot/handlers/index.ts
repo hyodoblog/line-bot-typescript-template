@@ -1,6 +1,6 @@
 import { WebhookEvent } from '@line/bot-sdk'
 import { lineClient } from '~/utils/line'
-import { msgError } from '~line/notice-messages/other'
+import { msgError } from '~lineBot/notice-messages/other'
 
 import { followHandler } from './follow'
 import { messagesHandler } from './messages'
