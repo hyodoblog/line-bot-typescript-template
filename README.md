@@ -6,7 +6,7 @@ LINE Bot + TypeScript + Firebase Functions のテンプレート
 ## 初期設定
 
 1. .firebaserc ファイルを設定
-2. functions/.env.expample をもとに.env ファイルを作成&設定
+2. .env.expample をもとに.env ファイルを作成&設定
 
 ## デプロイ
 
