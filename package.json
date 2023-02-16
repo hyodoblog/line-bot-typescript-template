@@ -17,7 +17,7 @@
   "main": "dist/index.js",
   "dependencies": {
     "@line/bot-sdk": "^7.5.2",
-    "axios": "^1.3.2",
+    "axios": "^1.3.3",
     "dayjs": "^1.11.7",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -27,15 +27,15 @@
   },
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.50.0",
-    "@typescript-eslint/parser": "^5.50.0",
-    "eslint": "^8.33.0",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-import-access": "^1.0.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-sort-destructure-keys": "^1.4.0",
-    "prettier": "^2.8.3",
+    "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "prettier": "^2.8.4",
     "typescript": "^4.9.5"
   }
 }
