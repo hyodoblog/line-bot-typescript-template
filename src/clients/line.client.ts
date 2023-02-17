@@ -1,4 +1,4 @@
-import { Client, ClientConfig, Message, MiddlewareConfig } from '@line/bot-sdk'
+import { Client, ClientConfig, MiddlewareConfig } from '@line/bot-sdk'
 
 import { LINE_ACCESS_TOKEN, LINE_SECRET } from '../utils/secrets'
 
