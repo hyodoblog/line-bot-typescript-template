@@ -1,4 +1,5 @@
 import './alias'
+import './libs/firebase/app'
 
 // ------------
 // https
