@@ -1,6 +1,7 @@
 import { MessageEvent, TextEventMessage } from '@line/bot-sdk'
 
-import { lineClient, makeReplyMessage } from '~/utils/line'
+import { lineClient } from '~/clients/line.client'
+import { makeReplyMessage } from '~/utils/line.util'
 import { errorLogger } from '~/utils/util'
 
 // *********

@@ -1,6 +1,6 @@
 import { WebhookEvent } from '@line/bot-sdk'
 
-import { lineClient } from '~/utils/line'
+import { lineClient } from '~/clients/line.client'
 import { errorLogger } from '~/utils/util'
 import { msgError } from '~lineBot/notice-messages/other'
 

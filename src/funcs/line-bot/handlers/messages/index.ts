@@ -1,6 +1,6 @@
 import { MessageEvent } from '@line/bot-sdk'
 
-import { lineClient } from '~/utils/line'
+import { lineClient } from '~/clients/line.client'
 import { errorLogger } from '~/utils/util'
 import { msgOther } from '~lineBot/notice-messages/other'
 

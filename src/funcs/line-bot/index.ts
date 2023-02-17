@@ -2,7 +2,7 @@ import { middleware } from '@line/bot-sdk'
 import express from 'express'
 import { logger, region, RuntimeOptions } from 'firebase-functions'
 
-import { lineMiddlewareConfig } from '~/utils/line'
+import { lineMiddlewareConfig } from '~/clients/line.client'
 import { errorLogger } from '~/utils/util'
 
 import { handlers } from './handlers'
