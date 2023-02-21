@@ -4,18 +4,18 @@ import { lineClient } from '~/clients/line.client'
 import { errorLogger } from '~/utils/util'
 import { msgOther } from '~lineBot/notice-messages/other'
 
-import { messageTextHandler } from './text'
+import { messageTextUsecase } from './text'
 
-export const messagesHandler = async (event: MessageEvent): Promise<void> => {
+export const messagesUsecase = async (event: MessageEvent): Promise<void> => {
   try {
     switch (event.message.type) {
       case 'text':
-        return await messageTextHandler(event)
+        return await messageTextUsecase(event)
       default:
         await lineClient.replyMessage(event.replyToken, msgOther)
     }
   } catch (err) {
     errorLogger(err)
-    throw new Error('messages handler')
+    throw new Error('messages Usecase')
   }
 }
