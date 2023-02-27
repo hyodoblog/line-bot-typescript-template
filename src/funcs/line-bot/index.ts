@@ -12,8 +12,8 @@ const app = express()
 app.use(middleware(lineMiddlewareConfig))
 app.post('/', (req, res) =>
   Promise.all(req.body.events.map(usecases))
-    .then((result) => {
-      logger.info(result)
+    .then(() => {
+      logger.info('success')
       res.status(200).end()
     })
     .catch((err) => {
