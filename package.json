@@ -1,5 +1,5 @@
 {
-  "name": "functions",
+  "name": "line-bot-typescript-template",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && tsc",
